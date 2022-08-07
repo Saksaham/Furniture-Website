@@ -1,0 +1,111 @@
+<html>
+<head><title>Shyam Furniture</title>
+<style>
+body{
+margin:0;
+padding:0;
+background-color:black;
+font-family: 'Raleway', sans-serif;
+}
+#mainlogo{
+position:relative;
+left:635px;
+width:250px;
+height:175px;
+}
+.navbarsection{
+color:white;
+font-size:25px;
+position:relative;
+top:2px;
+left:200px;
+float:left;
+cursor:pointer;
+}
+.navbarsection:hover{
+color:red;
+}
+#navbar{
+border:5px solid red;
+}
+
+#maindiv{
+width:120%;
+height:500px;
+position:relative;
+left:-50px; 
+right:50%;
+background-size:100% 90%;
+background-repeat:no-repeat;
+margin:auto;
+animation:slider 12s infinite linear;
+
+}
+@keyframes slider{
+0%{background-image:url('sofa.jpeg');}
+25%{background-image:url('WhatsApp Image 2021-09-07 at 12.07.08 PM.jpeg');}
+50%{background-image:url('furniture.jpeg');}
+75%{background-image:url('WhatsApp Image 2021-09-07 at 12.23.10 PM.jpeg');}
+100%{background-image:url('WhatsApp Image 2021-09-07 at 12.06.44 PM.jpeg');}
+}
+
+
+.icon{
+float:left;
+margin-left:80px;
+}
+#contactus{
+text-decoration:none;
+color:white; 
+}
+#contactus:hover{
+color:red;
+}
+#material{
+text-decoration:none;
+color:white; 
+}
+#material:hover{
+color:red;
+}
+#aboutus{
+text-decoration:none;
+color:white; 
+}
+#aboutus:hover{
+color:red;
+}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel= "icon" href = "logo2.jpg" type= "image/x-icon">
+</head>
+<body>
+<div id = "logo">
+<img id = "mainlogo" src = "logo2.jpg">
+</div>
+<div id = "table1">
+<table width = 100% id = "navbar">
+<td width = 20% class = "navbarsection">Home</td>
+<td width = 20% class = "navbarsection"><a id ="material" href = "Material.html">Material</a></td>
+<td width = 20% class = "navbarsection"><a id = "aboutus" href = "About Us.html">About Us</a></td>
+<td width = 20% class = "navbarsection"><a id = "contactus" href = "Contact Us.html">Contact Us</a></td>
+<table>
+
+<br><br>
+
+<div id = "maindiv">
+</div>
+
+
+<div class = "icon" id = "sofaitem">
+<a href = "Categories.html" target= "_blank"><img class = "img1"src = "category.jpeg" width = "400px" height = "300px"></a>
+</div>
+<div class= "icon">
+ <a href = "Categories2.html" target = "_blank"><img class = "img2" src = "WhatsApp Image 2021-09-07 at 12.52.40 PM.jpeg" width = "400px" height = "300px"></a>
+</div>
+<div class = "icon">
+<a href = "Categories3.html" target = "_blank"><img  class = "img3" src = "WhatsApp Image 2021-09-07 at 12.54.54 PM.jpeg" width = "400px" height = "300px"></a>
+</div>
+</body>
+</html>
